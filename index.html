@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="calculator">
+    <h1>CALCULATOR</h1>
+    <div class="first">
+        <div class="display" id="display"></div>
+        <div class="third">
+            <button onclick="cleardisplay('AC')"class="AC">AC</button>
+            <button onclick="deletetext('X')"class="X">X</button>
+            <button onclick="appendOperator('%')" class="percent">%</button>
+            <button onclick="appendOperator('/')" class="divide">/</button>     
+        </div>
+        <div class="four">
+            <button onclick="appendnumber('7')"class="seventh">7</button>
+            <button onclick="appendnumber('8')"class="eight">8</button>
+            <button onclick="appendnumber('9')"class="nine">9</button>
+            <button onclick="appendOperator('*')"class="multiply">*</button>   
+            
+        </div>
+        <div class="five">
+            <button onclick="appendnumber('4')"class="fourth">4</button>
+            <button onclick="appendnumber('5')"class="fifth">5</button>
+            <button onclick="appendnumber('6')"class="sixth">6</button>
+            <button onclick="appendOperator('-')"class="subtract">-</button> 
+            
+        </div>
+        <div class="six">
+            <button onclick="appendnumber('1')" class="one">1</button>
+            <button onclick="appendnumber('2')" class="two">2</button>
+            <button onclick="appendnumber('3')" class="three">3</button>
+            <button onclick="appendOperator('+')" class="add">+</button> 
+        </div>
+        <div class="seven">
+            <button onclick="appendnumber('00')" class="doublezero">00</button>
+            <button onclick="appendnumber('0')" class="zero">0</button>
+            <button onclick="appendOperator('.')" class="decimal">.</button>
+            <button onclick="calculate()" class="equalto">=</button> 
+        </div>
+    </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

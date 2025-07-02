@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+.display{
+   margin-left: 5px;
+    margin-top:60px;
+    height: 40px;
+    width: 500px;
+    border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: #fff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: end;
+    align-content: end;
+}
+.calculator{
+    margin-top: 50px;
+    height:450px;
+    width: 520px;
+    border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: aquamarine;
+}
+.third{
+    margin-top: 12px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 500px;
+}
+.AC{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.X{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.percent{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.divide{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}    
+.four{
+    margin-top: 12px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 500px
+}
+.seventh{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.eight{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.nine{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.multiply{
+    font-size: 1.5rem;
+    font-size: 2rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.five{
+    font-size: 1.5rem;
+    margin-top: 12px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 500px
+}
+.fourth{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.fifth{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.sixth{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.subtract{
+    font-size: 1.5rem;
+    font-size: 2rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.six{
+    font-size: 1.5rem;
+    margin-top: 12px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 500px
+}
+.one{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.two{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.three{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.add{
+    font-size: 1.5rem;
+    font-size: 2rem;
+    height: 40px;
+    width: 120px;
+     border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.seven{
+    font-size: 1.5rem;
+    margin-top: 12px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 500px
+}
+.doublezero{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+    border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.zero{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+    border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.decimal{
+    font-size: 1.5rem;
+    height: 40px;
+    width: 120px;
+    border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+.equalto{
+    font-size: 1.5rem;
+    font-size: 2rem;
+    height: 40px;
+    width: 120px;
+    border-radius: 0.5rem;
+    border: solid black 2px;
+    background-color: black;
+    color: #fff;
+}
+h1{
+    border: dotted lightgrey 2px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+}
+.pressed{
+    box-shadow: 0 0 10px yellow;
+  transform: scale(0.95);
+}
